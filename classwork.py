@@ -26,7 +26,7 @@ def happy_birthday(name):
 
 
 def adding_numbers(number1, number2):
-    print(number1, "+", number2, "=", number1 + number2)
+    return number1 + number2
 
 
 def main():
@@ -41,7 +41,8 @@ def main():
     make_quotes()
     make_bottom_of_a_hexagon()
     happy_birthday("Liana and Allison")
-    adding_numbers(4, 6)
+    answer = adding_numbers(4, 6)
+    print("the answer is", answer)
 
 
 main()
