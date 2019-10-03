@@ -36,14 +36,14 @@ def user_height():
     return float(input("height:"))
 
 
-def area_of_rectangle(length, width):
+def area_of_rectangle(a, b):
     """
     this function calculates the area of a rectangle
-    :param length: the length of the rectangle
-    :param width: the width of the rectangle
-    :return: the length times the width
+    :param a: one side of the rectangle
+    :param b: another side of the rectangle
+    :return: the sides times each other
     """
-    return length * width
+    return a * b
 
 
 def surface_area(length, width, height):
